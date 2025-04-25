@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    background-color: #f4f4f4;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    color: #24292e;
+}
+#user-form {
+    max-width: 400px;
+    margin: 1rem auto;
+    display: flex;
+    gap: 0.5rem;
+}
+#username {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+#fetch-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #2ea44f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#fetch-btn:hover {
+    background-color: #22863a;
+}
+#user-details {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+#user-details img {
+    border-radius: 50%;
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 1rem;
+}
+#user-details h2 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+#user-details p {
+    text-align: center;
+    margin: 0.25rem 0;
+}
+#error-message {
+    color: red;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.users-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.user-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 1rem 1.5rem;
+    width: 250px;
+    text-align: center;
+}
+
+.user-card img {
+    border-radius: 50%;
+    max-width: 120px;
+    margin-bottom: 1rem;
+}
+
+.user-card h2 {
+    margin-bottom: 0.25rem;
+    font-size: 1.25rem;
+    color: #24292e;
+}
+
+.user-card .login {
+    color: #586069;
+    margin-bottom: 0.5rem;
+}
+
+.user-card .bio {
+    font-style: italic;
+    margin-bottom: 0.75rem;
+    color: #333;
+}
+
+.user-card p {
+    margin: 0.25rem 0;
+}
+
+.user-card a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.user-card a:hover {
+    text-decoration: underline;
+}
+
+.search-container {
+    max-width: 400px;
+    margin: 1rem auto;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+#search-username {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#search-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #2ea44f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#search-btn:hover {
+    background-color: #22863a;
+}
